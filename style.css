@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .app {
@@ -24,7 +25,11 @@ body {
   flex-direction: column;
   width: 200px;
   height: 200px;
-  border: 10px;
+  border: 5px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: chocolate;
+  padding: 3px;
 }
 
 .display {
@@ -39,6 +44,17 @@ body {
 .buttons div{
   display: flex;
 }
+
+.buttons div div{
+  justify-content: center;
+  flex:1 1 50px;
+  margin: 2px;
+}
+
+#equal{
+  flex:1 52%;
+}
+
 
 /* FOOTER */
 .footer {
