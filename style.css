@@ -2,8 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,134,255,1) 10%, rgba(0,212,255,1) 100%);
+  background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 .app {
@@ -30,9 +29,9 @@ body {
   border: 5px;
   border-style: solid;
   border-radius: 7px;
-  border-color: chocolate;
+  border-color: #3d3f42;
   padding: 3px;
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-image: linear-gradient(to bottom, #3d3f42, #3e4244, #414545, #454846, #494a48);
 }
 
 .display {
@@ -42,7 +41,7 @@ body {
   border: 1px;
   border-style: solid;
   border-radius: 3px;
-  border-color: chocolate;
+  border-color: #3d3f42;
   background-color: black;
   color: aliceblue;
   margin: 0px 2px;
@@ -61,6 +60,7 @@ body {
   display: flex;
   flex: 1 1 auto;
   justify-content: center;
+  font-size: 15px;
 }
 
 .buttons div div{
@@ -69,8 +69,7 @@ body {
   border: 1px;
   border-style: solid;
   border-radius: 3px;
-  border-color: chocolate;
-  background: rgb(0,0,0);
+  border-color: #3d3f42;
   background: radial-gradient(circle, rgba(0,0,0,1) 12%, rgba(48,116,195,1) 89%);
   padding-top: 14px;
   color:azure;
